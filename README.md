@@ -2,9 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
 
-## Development server
+## Universal SSR in action
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run dynamic:ssr` This will compile your application and spin up a Node Express server to serve your Universal application on http://localhost:4000.
+
+## SSR help NG Tutorial
+
+To get more help on the SSR Universal go check out the [Server-side Rendering (SSR): An intro to Angular Universal](https://angular.io/guide/universal#server-side-rendering-ssr-an-intro-to-angular-universal).
+
+## So how do we know it worked?
+
+if you access that localhost URL, you should now see that the typical empty <app-root></app-root> will now have content inside it! || Disable JavaScript or View Source to see the outputted content inside <app-root></app-root>!
+
+
 
 ## Code scaffolding
 
@@ -25,3 +35,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
